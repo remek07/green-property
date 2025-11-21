@@ -1,12 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 @import "tailwindcss";
 
+:root{
+  --greenPrimary: rgb(61, 166, 1);
+}
 body{
   font-family: "Roboto", sans-serif ;
 }
 .btnLink{
     padding: 8px 16px;
     background-color: #fff;
-    border-radius: 8px;
     font-size: 1.1rem;
+}
+.btnLink:hover{
+    background-color: var(--greenPrimary);
+    transition: 0.3s;
 }
